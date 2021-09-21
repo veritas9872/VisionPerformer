@@ -214,8 +214,7 @@ RUN python -m pip install --no-cache-dir /tmp/dist/*.whl \
     cupy-cuda112==9.2.0 \
     SimpleITK==2.1.0 \
     seaborn==0.11.1 \
-    albumentations==1.0.3 \
-    nibabel==3.2.1 && \
+    albumentations==1.0.3 && \
     rm -rf /tmp/dist
 
 # Edit .bashrc file for environment settings.
